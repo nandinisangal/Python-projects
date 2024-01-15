@@ -1,7 +1,7 @@
 print("Created by Nandini Sangal")
 print("Welcome to the basic calculator for two numbers")
 user_input_a= float(input("Enter first number: "))
-user_input_b=float(input("Enter second number: "))
+user_input_b= float(input("Enter second number: "))
 user_computation=input("Which operation does you want to perform select (1,2,3,4,5,6)\n1 for ARITHMETIC[Addition (+), Subtraction (-), Multiplication (*), Division (/), Modulus (%), Exponentiation (**), Floor Division (//).]\n2 for COMPARISON[Equal to (==), Not equal to (!=), Greater than (>), Less than (<), Greater than or equal to (>=), Less than or equal to (<=)]\n3 for LOGICAL[AND('and'), OR('or'), NOT('not')]\n4 for BITWISE[Bitwise AND (&), Bitwise OR (|), Bitwise XOR (^), Bitwise NOT (~), Left shift (<<), Right shift (>>)]\n5 for ASSIGNMENT[Assignment (=), Addition assignment (+=), Subtraction assignment (-=), Multiplication assignment (*=), Division assignment (/=), Modulus assignment (%=), Exponentiation assignment (**=), Floor division assignment (//=)\n6 for IDENTITY['is': Returns 'True' if both variables point to the same object.\n\t\t\t\t'is not': Returns 'True' if both variables do not point to the same object.] ")
 if user_computation == '1': #Arithmetic operation
     user_operation =input("Select an arithmetic operation[+,-,*,/,%,**,//]")
